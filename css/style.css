@@ -1,0 +1,149 @@
+@font-face {
+    font-family: AvenirNext;
+    src: url(../font/AvenirNext-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: AvenirNext, 'Times New Roman', Times, serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color-white {
+    color: white;
+}
+
+.p-4 {
+    padding: 30px 30px;
+}
+
+.col nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.col nav ul li {
+    display: inline;
+    padding-left: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.col nav a {
+    text-decoration: none;
+    color: #808080;
+}
+
+.col nav a:hover {
+    text-decoration: underline;
+}
+
+.h-610 {
+    height: 610px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.bg {
+    background-image: url(../img/portada.jpg);
+}
+
+.col-1 {
+    width: 480px;
+    padding-left: 120px;
+}
+
+.itt {
+    border: none;
+    padding: 15px 48px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url(../img/icons-search.svg);
+    background-repeat: no-repeat;
+    background-size: 33px;
+    background-position-y: center;
+    background-position-x: 8px;
+}
+
+hr {
+    margin: 30px 60px;
+    width: 70px;
+    border: solid 2px #eb3921;
+}
+
+.p-1 {
+    padding-left: 60px;
+}
+
+.container {
+    width: 92%;
+    margin: 16px 60px;
+}
+
+.col-3 {
+    width: 32%;
+    box-shadow: 1px 1px 8px black;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.p-2 {
+    padding-top: 20px;
+    padding-left: 25px;
+    text-align: left;
+}
+
+.p-3 {
+    padding-left: 25px;
+}
+
+.its {
+    position: absolute;
+    left: 110px;
+    border: none;
+    padding: 7px 45px;
+    border-radius: 11px;
+    background-color: #eb3921;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.col-4 {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p-4 {
+    padding-top: 20px;
+}
